@@ -1,5 +1,4 @@
-# Area de un triángulo
-
+# area de un triángulo
 def definir_base():
     base = float(input("Ingrese la base del triángulo: "))
     return base
@@ -18,7 +17,6 @@ def imprimir_resultado(area):
 base = definir_base()
 altura = definir_altura()
 area = calcular_area(base, altura)
-
 imprimir_datos(base, altura)
-
 imprimir_resultado(area)
+
