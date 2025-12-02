@@ -1,5 +1,4 @@
-# Área rectangulo
-
+# area rectangulo
 def definir_longitud():
     longitud = float(input("Ingrese la longitud del rectángulo: "))
     return longitud
@@ -9,7 +8,6 @@ def definir_ancho():
 def calcular_area(longitud, ancho):
     area = longitud * ancho
     return area
-
 def imprimir_datos(longitud, ancho):
     print("La longitud es:", longitud)
     print("El ancho es:", ancho)
